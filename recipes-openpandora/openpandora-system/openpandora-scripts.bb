@@ -4,9 +4,9 @@ LIC_FILES_CHKSUM = "file://${WORKDIR}/LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a42
 
 COMPATIBLE_MACHINE = "openpandora"
 
-RDEPENDS_${PN} = "zenity dbus xwininfo"
+RDEPENDS_${PN} = "zenity dbus xwininfo procps"
 
-PR = "r132"
+PR = "r133"
 SRC_URI = " \
 	  file://LICENSE \
           file://op_paths.sh \
