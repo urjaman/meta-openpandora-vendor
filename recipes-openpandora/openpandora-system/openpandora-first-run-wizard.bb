@@ -3,11 +3,11 @@ LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://${WORKDIR}/LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
 DEPENDS = "hsetroot zenity dbus"
-RDEPENDS_${PN} = "hsetroot zenity dbus openpandora-wallpaper-official tslib tslib-calibrate openpandora-skel xmodmap openpandora-scripts"
+RDEPENDS_${PN} = "hsetroot zenity dbus openpandora-wallpaper-official tslib tslib-calibrate openpandora-skel xmodmap openpandora-scripts tzdata-africa tzdata-americas tzdata-asia tzdata-australia tzdata-europe tzdata-pacific"
 
 COMPATIBLE_MACHINE = "openpandora"
 
-PR = "r47"
+PR = "r48"
 
 SRC_URI = " \
           file://LICENSE \
