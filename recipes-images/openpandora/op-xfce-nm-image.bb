@@ -11,6 +11,7 @@ IMAGE_INSTALL += " \
 	angstrom-gnome-icon-theme-enable gtk-engine-clearlooks gtk-theme-clearlooks angstrom-clearlooks-theme-enable \
 	packagegroup-openpandora-core \
 	packagegroup-openpandora-extra \
+	evince ttf-dejavu-sans ttf-dejavu-serif ttf-dejavu-sans-mono fontconfig  \
 "
 
 export IMAGE_BASENAME = "OP-XFCE-NetworkManager-image"
